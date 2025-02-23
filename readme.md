@@ -60,6 +60,10 @@ console.log(myArray); // Output: [1, 2, 3, 4, 5]
 // Insert/delete using splice
 myArray.splice(2, 1, 10); // Remove 1 element at index 2, insert 10
 console.log(myArray); // Output: [1, 2, 10, 4, 5]
+
+let myArray = [1, 2, 3, 4, 5];
+myArray.splice(5,0,6); // Add 1element  at index of 5 , insert 6
+console.log(myArray); // Output: [1, 2, 3, 4, 5,6]
 ```
 
 **2. Linked Lists**
